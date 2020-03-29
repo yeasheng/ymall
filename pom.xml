@@ -15,7 +15,7 @@
         <version>2.1.7.RELEASE</version>
         <relativePath/>
     </parent>
-    <groupId>com.yeasheng</groupId>
+    <groupId>com.yeasheng.ymall</groupId>
     <artifactId>ymall</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
@@ -84,19 +84,19 @@
         <dependencies>
             <!--Ymall通用模块-->
             <dependency>
-                <groupId>com.yeasheng</groupId>
+                <groupId>com.yeasheng.ymall</groupId>
                 <artifactId>ymall-common</artifactId>
                 <version>${ymall-common.version}</version>
             </dependency>
             <!--mall中MBG生成模块-->
             <dependency>
-                <groupId>com.yeasheng</groupId>
+                <groupId>com.yeasheng.ymall</groupId>
                 <artifactId>ymall-mbg</artifactId>
                 <version>${ymall-mbg.version}</version>
             </dependency>
             <!--mall安全模块-->
             <dependency>
-                <groupId>com.yeasheng</groupId>
+                <groupId>com.yeasheng.ymall</groupId>
                 <artifactId>ymall-security</artifactId>
                 <version>${ymall-security.version}</version>
             </dependency>
